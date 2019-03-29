@@ -7,8 +7,8 @@
 #ifndef Game_h
 #define Game_h
 #include "State.h"
-#include "SDL_include.h"
-#define INDLUDE_SDL
+//#include "SDL_include.h"
+//#define INDLUDE_SDL
 
 class Game {
 public:

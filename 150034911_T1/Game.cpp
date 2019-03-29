@@ -1,8 +1,11 @@
 #include "Game.h"
-#include "SDL_image.h"
-#include "SDL_mixer.h"
+//#include "SDL_image.h"
+//#include "SDL_mixer.h"
+#include "SDL_include.h"
 #include "State.h"
 #include <iostream>
+#define INCLUDE_SDL_IMAGE
+#define INCLUDE_SDL_MIXER
 
 
 Game* Game::instance = nullptr;
@@ -61,7 +64,7 @@ Game::Game(const char*, int, int) {
 	}
 
 	if (!Mix_Init(MIX_INIT_OGG | MIX_INIT_MP3)) {
-		std::cerr << "\n\n ERROR: SDL_Mixere couldn't be initialized \n\n" << std::endl;
+		std::cerr << "\n\n ERROR: SDL_Mixer couldn't be initialized \n\n" << std::endl;
 		exit(1);
 	}
 

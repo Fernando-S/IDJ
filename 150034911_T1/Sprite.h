@@ -6,6 +6,8 @@
 #include "SDL_include.h"
 #include <string>
 #define INDLUDE_SDL
+#define INCLUDE_SDL_IMAGE
+#define INCLUDE_SDL_MIXER
 
 class Sprite {
 public:
