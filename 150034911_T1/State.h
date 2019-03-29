@@ -2,7 +2,6 @@
 
 #ifndef State_h
 #define State_h
-//#include "SDL.h"
 #include "Sprite.h"
 #include "Music.h"
 

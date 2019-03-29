@@ -2,9 +2,10 @@
 
 #ifndef Sprite_h
 #define Sprite_h
-#include "SDL.h"
 #include "SDL_image.h"
+#include "SDL_include.h"
 #include <string>
+#define INDLUDE_SDL
 
 class Sprite {
 public:
